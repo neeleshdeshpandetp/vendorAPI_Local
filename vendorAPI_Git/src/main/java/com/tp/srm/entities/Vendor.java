@@ -21,7 +21,7 @@ public class Vendor {
 	public String taxIdentification;
 	public String phoneNumber;
 	public Date registrationDate;
-	
+
 	public Vendor() {
 		this.code = "250464";
 		this.name1 = "Tetra Pak India Pvt. Ltd.";
@@ -129,5 +129,5 @@ public class Vendor {
 	public void setPhoneNumber(String phoneNumber) {
 		this.phoneNumber = phoneNumber;
 	}
-		
+
 }
